@@ -36,11 +36,9 @@ public class Code_01 {
                 month /= 10;
                 day /= 10;
             }
-
             if(sum == temp) {
                 count++;
             }
-
             time1 = time1.plus(1, ChronoUnit.DAYS);
         }
         System.out.println(count);
