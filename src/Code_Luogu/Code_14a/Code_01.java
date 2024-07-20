@@ -24,13 +24,9 @@ public class Code_01 {
                 YEAR[i] = year % 10;
                 year = year / 10;
             }
-
-
             for(int i = 0;i < 4;i++) {
                 sum = YEAR[i] + sum;
             }
-
-
             for(int i = 0;i < 2;i++ ) {
                 temp = temp + month%10 + day%10;
                 month /= 10;
